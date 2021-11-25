@@ -1,0 +1,52 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title> Sakha Rakha </title>
+
+<script type="text/javascript">
+flag=1
+function f1()
+{
+    alert("Thanks Udah Pilih Jawaban YA")
+}
+function f( )
+{
+    if(flag==1)
+        {
+            Bn.style.top=400
+            Bn.style.left=300
+            flag=2
+        }
+    else if(flag==2)
+        {
+            Bn.style.top=400
+            Bn.style.left= 50
+            flag=3
+        }
+    else if(flag==3)
+        {
+            Bn.style.top=370
+            Bn.style.left=166
+            flag=1
+        }
+}
+</script>
+
+</head>
+<body>
+<h1> Hallo :) <h1>
+<img alt="Sakha Rakha" src="p.jpeg" height="200" />
+<h1 style="#">Jangan Dibuka!</h1>
+<div id="By" style="position:absolute; left:64px; top:370px; width :210px;
+tinggi:210px;">
+<!-- <input type="button" value=" YA "  />  -->
+<a href="index2.html"><input type="button" value=" BUKA "  /> </a>
+</div>
+<div ID="Bn" style="position:absolute; kiri: 166px; atas:370px; lebar:210px; tinggi:210px;">
+<input type="button" value=" TIDAK " onMouseOver="f()" />
+</div>
+
+</body>
+</html>
